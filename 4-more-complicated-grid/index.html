@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3-grid-layout</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            width: 1200px;
+            justify-content: center;
+            margin: 0 auto;
+            gap: 10px;
+        }
+        .left{
+            background-color: red;
+        }
+        .right{
+            background-color:  blue;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            align-items: center;
+        }
+        .horizontal-center{
+            display: grid;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left" >
+            <div class="horizontal-center">
+                 <h1>Left</h1>
+            </div>
+            <div>
+                text text text text text text text text text text text text text text text
+            </div>   
+        </div>
+        <div class="right" >
+            <div>col 1</div>
+            <div>col 2</div>
+            <div>col 3</div>
+            <div>col 1</div>
+            <div>col 2</div>
+            <div>col 3</div>
+            <div>col 1</div>
+            <div>col 2</div>
+            <div>col 3</div>
+        </div>
+    </div>
+</body>
+</html>
