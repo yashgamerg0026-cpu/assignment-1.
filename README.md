@@ -13,9 +13,7 @@ The exercises are organized into problem folders, with their corresponding solut
 | `2-flex-layout` | Build layouts using Flexbox | Flexbox |
 | `3-grid-layout` | Create layouts using CSS Grid | CSS Grid |
 | `4-more-complicated-grid` | Implement more complex grid structures | Advanced CSS Grid |
-| `5-vscode-bottombar` | Recreate the VS Code bottom status bar | UI Component Replication |
-| `vs-code-landing-page` | Recreate a VS Code landing page | Web Page Layout |
-
+| `5-vscode-bottombar` | Recreate the VS Code bottom status bar | UI Component 
 ## Learning Objectives
 
 - **CSS Fundamentals:** Understand the box model, positioning, spacing, and element alignment.
@@ -75,16 +73,5 @@ For the VS Code bottom bar exercise:
 cd problems/5-vscode-bottombar
 ```
 
-Open the relevant HTML file in your browser, or use the Live Server extension in Visual Studio Code if the exercise includes an HTML entry point.
-
-## Solutions
-
-The `solutions` directory contains implementations of the exercises. Use these solutions to compare approaches, understand layout decisions, and review your work after attempting each problem independently.
-
-The repository also includes a VS Code landing page implementation under:
-
-```text
-solutions/vs-code-landing-page/
-```
 
 ## Repository
